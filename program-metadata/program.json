@@ -1,0 +1,5898 @@
+{
+  "data": [
+    {
+      "created_at": "2019-01-14 11:59:24",
+      "updated_at": "2021-06-02 17:02:04",
+      "journey_updated_at": "2021-06-02 17:02:06",
+      "name": "HeLP",
+      "system_name": "HeLP",
+      "enabled": 1,
+      "description": "HeLP",
+      "note": "",
+      "deleted_at": null,
+      "updated_by": 431,
+      "colors": {
+        "dark_primary": "rgba(5, 5, 5, 1)",
+        "light_primary": "rgba(44, 190, 195, 1)",
+        "primary": "rgba(0, 94, 184, 1)",
+        "accent": "rgba(101, 161, 27, 1)",
+        "plugin_item_selected_border": "rgba(56, 187, 201, 1)",
+        "progress_base": "rgba(98, 148, 192, 1)",
+        "progress_fill": "rgba(65, 182, 230, 1)",
+        "coaching_content_card": "rgba(92, 107, 192, 1)",
+        "button_text": "rgba(255, 255, 255, 1)",
+        "button_active_text": "rgba(255, 255, 255, 1)",
+        "button_hover_text": "rgba(255, 255, 255, 1)",
+        "grey": "rgba(119, 119, 119, 1)",
+        "input_border": "rgba(22, 134, 197, 1)",
+        "off_white": "rgba(229, 237, 245, 1)",
+        "plugin_item_selected_background": "rgba(56, 187, 201, 1)",
+        "primary_text": "rgba(35, 31, 32, 1)",
+        "secondary_text": "rgba(0, 81, 148, 1)",
+        "button_background": "rgba(0, 94, 184, 1)",
+        "button_hover_background": "rgba(27, 117, 121, 1)",
+        "journey_type": "rgba(0, 94, 184, 1)",
+        "journey_type_completed": "rgba(0, 8, 31, 1)",
+        "active_learn_card_background": "rgba(255, 255, 255, 1)",
+        "active_learn_card_title": "rgba(0, 84, 153, 1)",
+        "active_learn_card_status": "rgba(0, 84, 153, 1)",
+        "active_learn_card_type": "rgba(0, 84, 153, 1)",
+        "complete_learn_card_background": "rgba(255, 255, 255, 1)",
+        "complete_learn_card_title": "rgba(0, 114, 206, 1)",
+        "complete_learn_card_status": "rgba(88, 88, 88, 1)",
+        "complete_learn_card_type": "rgba(0, 8, 31, 1)",
+        "complete_learn_card_overlay": "rgba(102, 102, 102, 0.25098039215686274)",
+        "incomplete_learn_card_background": "rgba(0, 8, 31, 1)",
+        "incomplete_learn_card_title": "rgba(255, 255, 255, 1)",
+        "incomplete_learn_card_status": "rgba(255, 255, 255, 1)",
+        "incomplete_learn_card_type": "rgba(46, 161, 255, 1)"
+      },
+      "has_kiosk_mode": 0,
+      "kiosk_mode_pin": null,
+      "journey_builder": [
+        {
+          "type": "start",
+          "display_name": "start",
+          "x": 1288,
+          "y": -56,
+          "moved": true,
+          "key": "ab3df774-c0f5-4c20-80c9-4eba20849329",
+          "next": "0dbd1054-5ce6-480f-8957-fddb1424c437"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 784,
+          "y": 1904,
+          "key": "80ebffec-90c2-49cd-8296-f112d8a67563",
+          "moved": true,
+          "next": "878cf5cb-6cd5-451b-859f-d35d51a4637e"
+        },
+        {
+          "type": "if",
+          "display_name": "if else",
+          "x": 952,
+          "modal": false,
+          "source": {
+            "name": "optionalprofiledata",
+            "property": 46
+          },
+          "y": 2632,
+          "key": "c11cff5a-4056-4bb9-8f10-43bcf19a51a0",
+          "moved": true,
+          "next": [
+            "54e9f009-eb4b-4fd6-a265-0404b7aca520",
+            "68d91634-ec01-48dd-968b-f51f44cf671f"
+          ]
+        },
+        {
+          "system_name": "Part 1- Introduction to type 2 diabetes",
+          "display_name": {
+            "en_GB": "Introduction to type 2 diabetes"
+          },
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "An introduction to type 2 diabetes (HeLP)(Edited Version)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Understanding diabetes - about type 2 diabetes  1-1 (HL)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Introduction to type 2 diabetes - What is type 2 diabetes (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Being diagnosed with type 2 diabetes (HeLP) (Edited)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Getting the diagnosis (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Sylvia's experience after diagnosis (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Soon after being diagnosed Sylvia lost her eyesight for two weeks until her medication kicked in (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "What can happen if diabetes is poorly managed (HeLP) (Edited Version)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How can I take care of my diabetes? (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Raj feels more energetic since he has been more careful about when he eats (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "What causes type 2 diabetes (HeLP) (Edited Version)2"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Cure (HeLP) (Edited Version) (NHS approved)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Treatment (HeLP) (Edited Version)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Understanding type 2 diabetes (Quiz) (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of part 1 (HeLP)"
+            }
+          ],
+          "type": "section",
+          "x": 784,
+          "y": 1792,
+          "key": "a4cca5fc-41c2-4cbb-8a4e-4fc1fa7165a1",
+          "moved": true,
+          "next": "80ebffec-90c2-49cd-8296-f112d8a67563",
+          "description": {
+            "en_GB": ""
+          }
+        },
+        {
+          "system_name": "Part 2 - Self- assessment",
+          "display_name": {
+            "en_GB": "Self assessment"
+          },
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How you feel about your diabetes"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Find out how confident you feel about managing your diabetes (HeLP) (Quiz) (New version 1)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Find out how your diabetes affects your life (HeLP) (Quiz)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of part 2 (HeLP)"
+            }
+          ],
+          "x": 560,
+          "y": 2016,
+          "type": "section",
+          "key": "878cf5cb-6cd5-451b-859f-d35d51a4637e",
+          "moved": true,
+          "next": "6c109d05-7e58-4707-9f53-07e535811e6b",
+          "description": {
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 3 - Eating well for diabetes",
+          "display_name": {
+            "en_GB": "Eating well for diabetes"
+          },
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Food, drink and alcohol (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "A healthy diet (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "A healthy balanced diet (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Meals and portion sizes (HeLP)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Calories and weight (HL) (Quiz) (New version)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Fruit and vegetables (Help)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Carbohydrates and sugar (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Lower carbohydrate plate (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Carbohydrates and blood sugar levels (HeLP)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Carbohydrates and blood glucose - Quiz (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Fat (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Fish (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Alcohol (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Salt (Help)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Foods specifically for people with diabetes (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Diet goals (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "End of part 3 - next steps (HeLP)"
+            },
+            {
+              "type": "profile-data",
+              "published": true,
+              "system_name": ""
+            }
+          ],
+          "x": 952,
+          "y": 2296,
+          "type": "section",
+          "key": "349cb0bf-abef-418b-984b-efe19af92bc1",
+          "moved": true,
+          "next": "ebf25132-a49c-4729-b9d5-b0d3c77ea461",
+          "description": {
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 4 - Becoming more active",
+          "display_name": {
+            "en_GB": "Becoming more active"
+          },
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Physical activity(Help)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How activity helps your body  (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Benefits of physical activity-Becoming more active  (Video)(HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Physical activity and diabetes medicines (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Exercise prescription (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Moderate activity - Becoming more active (HL)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Diabetes and exercise - Becoming more active (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Physical activity and being as safe as possible (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "If you are at risk of low blood sugar (hypoglycaemia) (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Activity routines and goals (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Physical activity goals you could use (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Physical activity goals (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "People’s stories - Part 4 - Becoming more active (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "James on the positive benefits of gardening (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "People's stories - Part 4 - Becoming more active - Stuart (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Stuart on finding excuses not to exercise (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "People's stories - Part 4 Becoming more active - Nicky (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "How Nicky fits exercise into her day (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - Part 4 - Becoming more active (HeLP)"
+            },
+            {
+              "type": "profile-data",
+              "published": true,
+              "system_name": ""
+            }
+          ],
+          "x": 1344,
+          "y": 2408,
+          "type": "section",
+          "key": "2e87665e-19b4-48bd-927d-41868b9ac671",
+          "moved": true,
+          "next": "ad7ae752-57be-4f6d-80a1-b806ebdaaf97",
+          "description": {
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Making the most of the NHS",
+          "display_name": {
+            "en": "",
+            "en_GB": "Making the most of the NHS"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Making the most of the NHS (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "The NHS (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Essential checks (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Your diabetes review (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "People’s stories - Making the most of the NHS (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Stuart's diabetes care routine (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Pamela - Making the most of the NHS (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Pamela - Making the most of the NHS (Video)(HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Tina - Making the most of the NHS (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Tina's experiences with her GP practice team (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Your health record (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - Making the most of the NHS (HeLP)"
+            }
+          ],
+          "x": 784,
+          "y": 2856,
+          "type": "section",
+          "key": "abe78507-526a-415d-9c12-f6012c076235",
+          "moved": true,
+          "next": "a15dea6a-79a9-4e03-bee4-267388d5edfe",
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 560,
+          "y": 2184,
+          "key": "6c109d05-7e58-4707-9f53-07e535811e6b",
+          "moved": true,
+          "next": "349cb0bf-abef-418b-984b-efe19af92bc1"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 952,
+          "y": 2408,
+          "key": "ebf25132-a49c-4729-b9d5-b0d3c77ea461",
+          "moved": true,
+          "next": "2e87665e-19b4-48bd-927d-41868b9ac671"
+        },
+        {
+          "type": "condition",
+          "display_name": "if",
+          "x": 840,
+          "modal": false,
+          "y": 2744,
+          "key": "54e9f009-eb4b-4fd6-a265-0404b7aca520",
+          "moved": true,
+          "next": "abe78507-526a-415d-9c12-f6012c076235",
+          "label": "if",
+          "xTranslate": -110,
+          "yTranslate": 80,
+          "cmp": "eq",
+          "value": "1"
+        },
+        {
+          "type": "condition",
+          "display_name": "else",
+          "x": 1176,
+          "modal": false,
+          "y": 2744,
+          "key": "68d91634-ec01-48dd-968b-f51f44cf671f",
+          "moved": true,
+          "next": "4487987e-9496-4fd5-8e18-63d5e7e0280b",
+          "label": "else",
+          "xTranslate": 280,
+          "yTranslate": 80
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 1120,
+          "y": 2968,
+          "key": "3c7d3581-52ce-4689-a1ca-bd20bb6260b0",
+          "moved": true,
+          "next": "4103dc04-6cd1-4326-84a4-9b7e8722cfea"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 952,
+          "y": 3248,
+          "key": "77ce23f7-cfec-46f9-9146-2ae6f83ee7b2",
+          "moved": true,
+          "next": "bbaca8c1-b5bf-4b34-ab85-c06021387018"
+        },
+        {
+          "system_name": "Part 4 Update my goals and plans - FOR MEDS",
+          "display_name": {
+            "en": "",
+            "en_GB": "Your goals and plans"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Your goals and plans (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Wellbeing (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Ways to increase your wellbeing - connect with other people (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Ways to increase your wellbeing - be physically active (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Ways to increase your wellbeing - pay attention to the present moment (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Ways to increase your wellbeing - learn new skills (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Ways to increase your wellbeing - give to others (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of part 4 Update my goals and plans"
+            }
+          ],
+          "x": 952,
+          "y": 3528,
+          "type": "section",
+          "key": "2889cb3e-bbd3-4f2f-88a1-1bdab8f29a50",
+          "moved": true,
+          "next": "5d386bf5-b267-4c1a-984e-7c5057be10e7",
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 4  Understanding my moods - FOR MEDS",
+          "display_name": {
+            "en": "",
+            "en_GB": "Understanding moods"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing your emotions (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Find out how you have been feeling (HeLP)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Find out how you have been feeling - Quiz (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Negative emotions (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Sadness and depression (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Fear and anxiety (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Anger and resentment (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Denial - Part 5 - Understanding my moods (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Guilt (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Self-confidence (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "People's stories - Part 5 - Understanding my moods (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Peoples stories - Helen - Understanding my moods (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Darren  - People's stories - Part 5 (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Peoples stories - Darren - Understanding my moods (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Wasim (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Peoples stories - Wasim - Understanding my moods (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of part 5 (HeLP)"
+            }
+          ],
+          "x": 952,
+          "y": 3752,
+          "type": "section",
+          "key": "503e4189-3034-417b-bcf8-2e319acf37be",
+          "moved": true,
+          "next": "ee6d3f39-370f-481c-8ed2-2048c85ec3a7",
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 616,
+          "y": 4648,
+          "key": "ee6d3f39-370f-481c-8ed2-2048c85ec3a7",
+          "moved": true,
+          "next": "7f50dbaa-0b10-4c2a-9a66-db58028b73a1"
+        },
+        {
+          "system_name": "Part 2  Looking after my feet",
+          "display_name": {
+            "en": "",
+            "en_GB": "Looking after your feet"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Taking care of your feet (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How to reduce the risk of feet problems (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Feet checks and tests (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - Looking after my feet (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - reduced sensation (neuropathy) Looking after my feet (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - reduced blood supply (ischaemia) Looking after my feet (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - reduced sensation and reduced blood supply (neuro-ischaemia) Looking after my feet (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - pain - Looking after my feet (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - corns and calluses - Looking after my feet (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - ulcers - Looking after my feet (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Treatment - Looking after my feet (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of Part 2 looking after my feet"
+            }
+          ],
+          "x": 616,
+          "y": 4760,
+          "type": "section",
+          "key": "7f50dbaa-0b10-4c2a-9a66-db58028b73a1",
+          "moved": true,
+          "next": "d6a03eee-528b-41de-9aac-5bfc0288d476",
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 3  Review my goals and plans - FOR NO MEDS",
+          "display_name": {
+            "en": "",
+            "en_GB": "Review your goals and plans"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Making changes (HeLP) 1"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Change my diet goal and plans (HeLP)"
+            }
+          ],
+          "x": 616,
+          "y": 4984,
+          "type": "section",
+          "key": "5beb0371-4137-461f-8979-d7f692c01479",
+          "moved": true,
+          "next": "6f930bf5-2e27-4e30-9138-734455d1c4a4",
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 4  Self assessment - FOR NO MEDS",
+          "display_name": {
+            "en": "",
+            "en_GB": "Self assessment"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Self assessment - How you feel about your diabetes (HL)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Find out how confident you feel about managing your diabetes (HeLP) (Quiz) (New version -2)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Find out how your diabetes affects your life (HeLP) (Quiz 2)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Self assessment - Section complete (HL)"
+            }
+          ],
+          "x": 616,
+          "y": 5208,
+          "type": "section",
+          "key": "152b25e8-4175-4a5f-b954-0f7550073690",
+          "moved": true,
+          "next": "433610a7-7ef6-40c8-94b4-0dfa719a20bc",
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 5  Staying motivated - FOR NO MEDS",
+          "display_name": {
+            "en": "",
+            "en_GB": "Staying motivated"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How do I stay motivated? (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Diabetes in the media (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Reliable research (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Unreliable research (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Other ways to find out if research is reliable (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How to get more information (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Challenges - Part 5 - Moving on the end of the beginning (HeLP)"
+            },
+            {
+              "type": "profile-data",
+              "published": true,
+              "system_name": ""
+            },
+            {
+              "type": "profile-data",
+              "published": true,
+              "system_name": ""
+            }
+          ],
+          "x": 616,
+          "y": 5432,
+          "type": "section",
+          "key": "71cc135b-a518-4e50-9d72-3b701014b57a",
+          "moved": true,
+          "next": "6fe2f3a8-e186-47ee-8a0a-463ea78ba57e",
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 616,
+          "y": 4872,
+          "key": "d6a03eee-528b-41de-9aac-5bfc0288d476",
+          "moved": true,
+          "next": "5beb0371-4137-461f-8979-d7f692c01479"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 616,
+          "y": 5096,
+          "key": "6f930bf5-2e27-4e30-9138-734455d1c4a4",
+          "moved": true,
+          "next": "152b25e8-4175-4a5f-b954-0f7550073690"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 616,
+          "y": 5320,
+          "key": "433610a7-7ef6-40c8-94b4-0dfa719a20bc",
+          "moved": true,
+          "next": "71cc135b-a518-4e50-9d72-3b701014b57a"
+        },
+        {
+          "type": "if",
+          "display_name": "if else",
+          "x": 1008,
+          "modal": false,
+          "source": {
+            "name": "optionalprofiledata",
+            "property": 44
+          },
+          "y": 5768,
+          "key": "6fe2f3a8-e186-47ee-8a0a-463ea78ba57e",
+          "moved": true,
+          "next": [
+            "db033399-023f-4c4a-aefa-68219d71cfac",
+            "74a60576-70cc-4cfc-91d3-41346bd90dcb"
+          ]
+        },
+        {
+          "system_name": "Part 1  Working with Health Professionals ",
+          "display_name": {
+            "en": "",
+            "en_GB": "Working with health professionals"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Working with health professionals (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "At the GP surgery (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Pharmacists, podiatrists and dietitians (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "At the hospital (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "If you feel low (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How to feel more supported by your diabetes team (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of Part 1 - Working with Health Professionals"
+            }
+          ],
+          "x": 1736,
+          "y": 6104,
+          "type": "section",
+          "key": "b0b8f501-ff6e-422d-a412-f0ebb4d8bfbd",
+          "moved": true,
+          "next": "a9678498-83f6-4c77-a797-b8f852f9a10c",
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "type": "if",
+          "display_name": "if else",
+          "x": 616,
+          "modal": false,
+          "source": {
+            "name": "optionalprofiledata",
+            "property": 45
+          },
+          "y": 6104,
+          "key": "34ae28e7-b0f6-406e-93b4-feb53c7a5fcf",
+          "moved": true,
+          "next": [
+            "7ed8d9e5-f45b-4f23-8f0a-be14b151cc1a",
+            "bc2d6190-1ecc-45fe-a4dc-9b38b8def107"
+          ]
+        },
+        {
+          "type": "condition",
+          "display_name": "if",
+          "x": 672,
+          "modal": false,
+          "y": 5992,
+          "key": "db033399-023f-4c4a-aefa-68219d71cfac",
+          "moved": true,
+          "next": "34ae28e7-b0f6-406e-93b4-feb53c7a5fcf",
+          "label": "if",
+          "xTranslate": -110,
+          "yTranslate": 80,
+          "cmp": "eq",
+          "value": "2"
+        },
+        {
+          "type": "condition",
+          "display_name": "else",
+          "x": 1624,
+          "modal": false,
+          "y": 5824,
+          "key": "74a60576-70cc-4cfc-91d3-41346bd90dcb",
+          "moved": true,
+          "next": "9fb0f6fe-ec77-4f1c-b620-6607a106d92d",
+          "label": "else",
+          "xTranslate": 280,
+          "yTranslate": 80
+        },
+        {
+          "type": "if",
+          "display_name": "if else",
+          "x": 1568,
+          "modal": false,
+          "source": {
+            "name": "optionalprofiledata",
+            "property": 45
+          },
+          "y": 5936,
+          "key": "9fb0f6fe-ec77-4f1c-b620-6607a106d92d",
+          "moved": true,
+          "next": [
+            "d6e09ea8-92cf-433d-8aa4-768afe2d03ee",
+            "094c3a1c-8bf0-41b1-be7a-cce47e253064"
+          ]
+        },
+        {
+          "type": "condition",
+          "display_name": "if",
+          "x": 392,
+          "modal": false,
+          "y": 6216,
+          "key": "7ed8d9e5-f45b-4f23-8f0a-be14b151cc1a",
+          "moved": true,
+          "next": "2e91cc2e-5ac6-4c0c-869f-287e7614ca5d",
+          "label": "if",
+          "xTranslate": -110,
+          "yTranslate": 80,
+          "cmp": "eq",
+          "value": "2"
+        },
+        {
+          "type": "condition",
+          "display_name": "else",
+          "x": 952,
+          "modal": false,
+          "y": 6216,
+          "key": "bc2d6190-1ecc-45fe-a4dc-9b38b8def107",
+          "moved": true,
+          "next": "e421a76c-ca55-4198-a266-b5bca3e0030a",
+          "label": "else",
+          "xTranslate": 280,
+          "yTranslate": 80
+        },
+        {
+          "type": "condition",
+          "display_name": "if",
+          "x": 1400,
+          "modal": false,
+          "y": 6216,
+          "key": "d6e09ea8-92cf-433d-8aa4-768afe2d03ee",
+          "moved": true,
+          "next": "046ea695-4289-44fc-a324-dacdf0ba0479",
+          "label": "if",
+          "xTranslate": -110,
+          "yTranslate": 80,
+          "cmp": "eq",
+          "value": "2"
+        },
+        {
+          "type": "condition",
+          "display_name": "else",
+          "x": 1792,
+          "modal": false,
+          "y": 5992,
+          "key": "094c3a1c-8bf0-41b1-be7a-cce47e253064",
+          "moved": true,
+          "next": "b0b8f501-ff6e-422d-a412-f0ebb4d8bfbd",
+          "label": "else",
+          "xTranslate": 280,
+          "yTranslate": 80
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 336,
+          "y": 6552,
+          "key": "da457f28-b49f-4b41-82dc-be3ded4ce9fe",
+          "moved": true,
+          "next": "eef6020c-2b25-46da-b565-075ae62e3302"
+        },
+        {
+          "system_name": "Part 2  Managing my diabetes when I’m ill - for EMPLOYED, DRIVER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Managing diabetes when you are ill"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing your diabetes when you are ill (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Eating when ill (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Blood sugar levels when you are ill (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Taking medicines when you are ill (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Preventing illness (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - Part 2 - Managing my diabetes when I'm ill"
+            }
+          ],
+          "x": 1904,
+          "y": 6328,
+          "type": "section",
+          "key": "967f43d1-0f38-4bfc-9f4e-8aee948d2c6a",
+          "moved": true,
+          "next": "43a221ef-66d5-4956-807b-12bbd81b58bb",
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 2 Managing my diabetes when I’m ill for EMPLOYED, NON-DRIVER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Managing diabetes when you are ill"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Diabetes and illness (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Eating when ill (HeLP)"
+            }
+          ],
+          "x": 1344,
+          "y": 6552,
+          "type": "section",
+          "key": "516914ac-d4c8-40cf-844d-5b23a41d50b3",
+          "moved": true,
+          "next": "e13b46c5-40fa-45e0-9b59-36f8b4be6ff8",
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Managing my diabetes when I’m ill  for UNEMPLOYED, DRIVER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Managing diabetes when you are ill"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Diabetes and illness (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Eating when ill (HeLP)"
+            }
+          ],
+          "x": 896,
+          "y": 6552,
+          "type": "section",
+          "key": "0ce876dd-3881-4f7c-888d-e621a044f208",
+          "moved": true,
+          "next": "51a6d9f0-4c82-40b7-b169-56fd7e882398",
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Managing my diabetes when I’m ill for UNEMPLOYED, NON-DRIVER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Managing diabetes when you are ill"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Diabetes and illness (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Eating when ill (HeLP)"
+            }
+          ],
+          "x": 336,
+          "y": 6664,
+          "type": "section",
+          "key": "eef6020c-2b25-46da-b565-075ae62e3302",
+          "moved": true,
+          "next": "2187ebc0-82cf-4724-92ee-9e57c33e2a5c",
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 896,
+          "y": 6440,
+          "key": "d0f3235a-8966-42dd-8396-ac82132f16ca",
+          "moved": true,
+          "next": "0ce876dd-3881-4f7c-888d-e621a044f208"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 1344,
+          "y": 6440,
+          "key": "39eafc5f-afe1-4828-8917-b32bb9346795",
+          "moved": true,
+          "next": "516914ac-d4c8-40cf-844d-5b23a41d50b3"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 1736,
+          "y": 6216,
+          "key": "a9678498-83f6-4c77-a797-b8f852f9a10c",
+          "moved": true,
+          "next": "967f43d1-0f38-4bfc-9f4e-8aee948d2c6a"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 1736,
+          "y": 6440,
+          "key": "43a221ef-66d5-4956-807b-12bbd81b58bb",
+          "moved": true,
+          "next": "49764400-c650-4289-ac46-1db1a791b2d0"
+        },
+        {
+          "system_name": "Diabetes and my social life for EMPLOYED, DRIVER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Diabetes and social life"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Making the most of your social life (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Diabetes and my social life - Eating socially (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Eating in restaurants (s11restaurants)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Eating at celebrations (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Fasting (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Diabetes and my social life - Alcohol (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Recreational drugs (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "People’s stories - Social live (HL)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Mo - Social lifes (HL)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Paul - Social life (HL) (Video)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Diabetes and social life - Section complete (HL)"
+            }
+          ],
+          "x": 1736,
+          "y": 6552,
+          "type": "section",
+          "key": "49764400-c650-4289-ac46-1db1a791b2d0",
+          "moved": true,
+          "next": "c05c49c1-1021-43c1-8dd2-048ff976ff69",
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Diabetes and my social life for EMPLOYED, NON-DRIVER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Diabetes and social life"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Making the most of your social life (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Special occasions (HeLP)"
+            }
+          ],
+          "x": 1344,
+          "y": 6776,
+          "type": "section",
+          "key": "79ec6ba3-c957-4ac7-9685-22426bc9b1fd",
+          "moved": true,
+          "next": "6f81b53a-ede5-4d28-ada6-ab8de0d0687a",
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Diabetes and my social life for UNEMPLOYED DRIVER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Diabetes and social life"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Making the most of your social life (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Special occasions (HeLP)"
+            }
+          ],
+          "x": 896,
+          "y": 6776,
+          "type": "section",
+          "key": "3ede85c6-92fa-43b8-bf38-5d6a709b7a72",
+          "moved": true,
+          "next": "0cd07954-e878-40cc-ae56-b433ed985913",
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Diabetes and my social life for UNEMPLOYED, NON DRIVER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Diabetes and social life"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Making the most of your social life (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Special occasions (HeLP)"
+            }
+          ],
+          "x": 336,
+          "y": 6888,
+          "type": "section",
+          "key": "0ad4c9ca-4f74-4e46-b0ff-ba493961d23b",
+          "moved": true,
+          "next": "d0f1fd12-ccaf-4a16-ad43-48640f0c65a4",
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 1344,
+          "y": 6664,
+          "key": "e13b46c5-40fa-45e0-9b59-36f8b4be6ff8",
+          "moved": true,
+          "next": "79ec6ba3-c957-4ac7-9685-22426bc9b1fd"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 896,
+          "y": 6664,
+          "key": "51a6d9f0-4c82-40b7-b169-56fd7e882398",
+          "moved": true,
+          "next": "3ede85c6-92fa-43b8-bf38-5d6a709b7a72"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 336,
+          "y": 6776,
+          "key": "2187ebc0-82cf-4724-92ee-9e57c33e2a5c",
+          "moved": true,
+          "next": "0ad4c9ca-4f74-4e46-b0ff-ba493961d23b"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 336,
+          "y": 7000,
+          "key": "d0f1fd12-ccaf-4a16-ad43-48640f0c65a4",
+          "moved": true,
+          "next": "1bd7c6cc-112a-4da0-86ea-a1fe5c664abe"
+        },
+        {
+          "system_name": "Working with diabetes for EMPLOYED, DRIVER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Working with diabetes"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Working with diabetes (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Telling the people you work with (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "If you already have a job (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Applying for a job (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Diabetes and the Equality Act (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "High risk jobs (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Shift work (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "People’s stories - Working with diabetes (HL)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Working with diabetes - Duncan on challenges of walking (HL)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Lawrence - Working with diabetes (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of Part 4 - Working with diabetes"
+            }
+          ],
+          "x": 1736,
+          "y": 6776,
+          "type": "section",
+          "key": "1c6a2133-286c-4d17-8c1f-8e6331c5c2fa",
+          "moved": true,
+          "next": "cb02c38b-8bbb-4696-bf5c-30b9c809fe6b",
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Working with diabetes for EMPLOYED, NON DRIVER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Working with diabetes"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing diabetes at work (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "When to tell employers and recruiters (HeLP)"
+            }
+          ],
+          "x": 1344,
+          "y": 7000,
+          "type": "section",
+          "key": "8c6e0f14-4e5f-4e33-a51c-71cda963d594",
+          "moved": true,
+          "next": "1ec1d87f-1321-4622-9821-f967325d5531",
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Driving with diabetes ",
+          "display_name": {
+            "en": "",
+            "en_GB": "Driving with diabetes"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Driving (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "If you already have a driving licence (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "If you are applying for a provisional driving licence (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "After you tell the DVLA about your diabetes (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Driving with diabetes - Driving and low blood sugar (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Driving with diabetes - Motor insurance (HL)"
+            }
+          ],
+          "x": 1736,
+          "y": 7000,
+          "type": "section",
+          "key": "bacbd82f-2067-45f2-a601-44303c1afc28",
+          "moved": true,
+          "next": "089b033d-932a-44f0-b941-a451ee3b32af",
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 6  Review my goals and plans",
+          "display_name": {
+            "en": "",
+            "en_GB": "Review your goals and plans"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Review my goals and plans - Progress on your goals and plans (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "End of part 6 (HeLP)"
+            }
+          ],
+          "x": 1736,
+          "y": 7224,
+          "type": "section",
+          "key": "bed42f03-69f5-4e77-9df2-dcf33cc50b74",
+          "moved": true,
+          "next": "88857d15-613a-4c06-a8f9-6151178a2b44",
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 896,
+          "y": 6888,
+          "key": "0cd07954-e878-40cc-ae56-b433ed985913",
+          "moved": true,
+          "next": "4b0ae735-0cad-4a7c-a55f-db6303c699db"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 1344,
+          "y": 6888,
+          "key": "6f81b53a-ede5-4d28-ada6-ab8de0d0687a",
+          "moved": true,
+          "next": "8c6e0f14-4e5f-4e33-a51c-71cda963d594"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 1736,
+          "y": 6664,
+          "key": "c05c49c1-1021-43c1-8dd2-048ff976ff69",
+          "moved": true,
+          "next": "1c6a2133-286c-4d17-8c1f-8e6331c5c2fa"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 1344,
+          "y": 7112,
+          "key": "1ec1d87f-1321-4622-9821-f967325d5531",
+          "moved": true,
+          "next": "14e29504-c1db-4fe5-b516-732a3a12f718"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 1736,
+          "y": 6888,
+          "key": "cb02c38b-8bbb-4696-bf5c-30b9c809fe6b",
+          "moved": true,
+          "next": "bacbd82f-2067-45f2-a601-44303c1afc28"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 1736,
+          "y": 7112,
+          "key": "089b033d-932a-44f0-b941-a451ee3b32af",
+          "moved": true,
+          "next": "bed42f03-69f5-4e77-9df2-dcf33cc50b74"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 896,
+          "y": 7112,
+          "key": "4cc21a44-2212-4fc5-939a-c9c96341e6d5",
+          "moved": true,
+          "next": "cb960ad1-0170-49a4-a1ed-2d929fae9e63"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 336,
+          "y": 7224,
+          "key": "7cc7b847-6c38-4be6-833d-487c1e4f79f6",
+          "moved": true,
+          "next": "e84f80d0-2e92-4bc3-bec0-5d50f142eacf"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 784,
+          "y": 1680,
+          "key": "633bc37a-e9bc-4c50-a0e2-cf849a89c81a",
+          "moved": true,
+          "next": "a4cca5fc-41c2-4cbb-8a4e-4fc1fa7165a1"
+        },
+        {
+          "system_name": "Getting started",
+          "display_name": {
+            "en": "",
+            "en_GB": "Getting started"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Before you begin (HeLP)"
+            },
+            {
+              "type": "profile-data",
+              "published": true,
+              "system_name": ""
+            },
+            {
+              "type": "profile-data",
+              "published": true,
+              "system_name": ""
+            },
+            {
+              "type": "profile-data",
+              "published": true,
+              "system_name": ""
+            },
+            {
+              "type": "profile-data",
+              "published": true,
+              "system_name": ""
+            },
+            {
+              "type": "profile-data",
+              "published": true,
+              "system_name": ""
+            }
+          ],
+          "type": "section",
+          "x": 1288,
+          "y": 112,
+          "key": "0dbd1054-5ce6-480f-8957-fddb1424c437",
+          "moved": true,
+          "next": "8a38b54b-6981-4b7f-b143-41b2f42e7d45",
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Making the most of the NHS",
+          "display_name": {
+            "en": "",
+            "en_GB": "Making the most of the NHS"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Making the most of the NHS (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "The NHS (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Essential checks (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Your diabetes review (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "People’s stories - Making the most of the NHS (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Stuart's diabetes care routine (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Pamela - Making the most of the NHS (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Pamela - Making the most of the NHS (Video)(HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Tina - Making the most of the NHS (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Tina's experiences with her GP practice team (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Your health record (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - Making the most of the NHS (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          },
+          "x": 1120,
+          "y": 2856,
+          "type": "section",
+          "key": "4487987e-9496-4fd5-8e18-63d5e7e0280b",
+          "moved": true,
+          "next": "3c7d3581-52ce-4689-a1ca-bd20bb6260b0"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 952,
+          "y": 3416,
+          "key": "266d1a24-1eb1-46de-b8e6-24831c4a46fd",
+          "moved": true,
+          "next": "2889cb3e-bbd3-4f2f-88a1-1bdab8f29a50"
+        },
+        {
+          "system_name": "Part 2  Medication - FOR MEDS",
+          "display_name": {
+            "en": "",
+            "en_GB": "Medication"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Medicines (HeLP)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Medicines quiz (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Benefits of taking medicine (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Effects and challenges of medicines (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Effects of medicines - Medication (HL)(Video)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Challenges of medicines (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Challenges of taking medicines - Medication (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Concerns about taking medicines (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Medicines - Concerns about taking medicines - if you do not feel ill (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Medicine - Concerns about taking medicines - having to take medicine for the rest of your life"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Medicines - Concerns about taking medicines - weight change and side effects (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Medicines - Concerns about taking medicines - forgetting to take medicines"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Medicines - Concerns about taking medicines - worried about what others will think (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Medicines - Concerns about taking medicines - affecting your work (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Medicines - Concerns about taking medicines - travel"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Medicine - Concerns about taking medicines - paying for prescriptions (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Medicine - Concerns about taking medicines - a cure not medicine (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Medication - Section complete - (HL)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          },
+          "x": 1120,
+          "y": 3080,
+          "type": "section",
+          "key": "4103dc04-6cd1-4326-84a4-9b7e8722cfea",
+          "moved": true,
+          "next": "77ce23f7-cfec-46f9-9146-2ae6f83ee7b2"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 952,
+          "y": 3640,
+          "key": "5d386bf5-b267-4c1a-984e-7c5057be10e7",
+          "moved": true,
+          "next": "503e4189-3034-417b-bcf8-2e319acf37be"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 784,
+          "y": 2968,
+          "key": "a15dea6a-79a9-4e03-bee4-267388d5edfe",
+          "moved": true,
+          "next": "77ce23f7-cfec-46f9-9146-2ae6f83ee7b2"
+        },
+        {
+          "system_name": "Part 2  Reducing risk of heart attacks and strokes",
+          "display_name": {
+            "en": "",
+            "en_GB": "Reducing risk of heart attacks and strokes"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Heart attacks and stroke (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Blood pressure (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Blood pressure readings (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Measuring blood pressure at home (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Blood pressure monitors - Reducing the risks of heart attacks and stroke (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Blood vessels (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - atherosclerosis (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - high blood pressure (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - heart disease (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - calf pain and circulation in the legs (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - transient ischaemic attack and stroke"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Treatment - Reducing the risks of heart attacks and stroke (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Preventing blood vessel problems (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - Reducing the risks of heart attacks and stroke (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          },
+          "x": 672,
+          "y": 3360,
+          "type": "section",
+          "key": "bbaca8c1-b5bf-4b34-ab85-c06021387018",
+          "moved": true,
+          "next": "266d1a24-1eb1-46de-b8e6-24831c4a46fd"
+        },
+        {
+          "system_name": "Advice notice  for TYPE 1 DIABETES",
+          "display_name": {
+            "en": "",
+            "en_GB": "Advice notice"
+          },
+          "description": {
+            "en": ""
+          },
+          "test": "",
+          "type": "section",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Advice notice  for TYPE 1 DIABETES (HL)"
+            }
+          ],
+          "x": 560,
+          "y": 784,
+          "key": "499fcdfc-3ee4-4f4a-9f0c-9ed5ebffe8ea",
+          "moved": true,
+          "next": "633bc37a-e9bc-4c50-a0e2-cf849a89c81a"
+        },
+        {
+          "system_name": "Advice notice  for AT RISK OF TYPE 2",
+          "display_name": {
+            "en": "",
+            "en_GB": "Advice notice"
+          },
+          "description": {
+            "en": ""
+          },
+          "test": "",
+          "type": "section",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Advice notice  for AT RISK OF TYPE 2"
+            }
+          ],
+          "x": 1008,
+          "y": 840,
+          "key": "91c60652-8c65-447d-b6df-0f5483eef34f",
+          "moved": true,
+          "next": "633bc37a-e9bc-4c50-a0e2-cf849a89c81a"
+        },
+        {
+          "system_name": "Advice notice for CARER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Advice notice"
+          },
+          "description": {
+            "en": ""
+          },
+          "test": "",
+          "type": "section",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Advice notice for CARER"
+            }
+          ],
+          "x": 1400,
+          "y": 784,
+          "key": "75e59e59-ce3e-4a42-89f7-9c06b5f60a52",
+          "moved": true,
+          "next": "633bc37a-e9bc-4c50-a0e2-cf849a89c81a"
+        },
+        {
+          "type": "if",
+          "display_name": "if else",
+          "x": 2072,
+          "modal": false,
+          "source": {
+            "name": "optionalprofiledata",
+            "property": 81
+          },
+          "y": 224,
+          "key": "8a38b54b-6981-4b7f-b143-41b2f42e7d45",
+          "moved": true,
+          "next": [
+            "2898f7fc-0069-4fcf-bf38-ff18a1f70a37",
+            "f7bf74a4-6c4a-4ccf-a91f-94ed0ecec21a",
+            "72af665a-c7a6-436f-a882-917ef77b5433",
+            "ea85c40b-ae36-459e-b610-7ed50cba34f1"
+          ]
+        },
+        {
+          "type": "condition",
+          "display_name": "if",
+          "x": 616,
+          "modal": false,
+          "y": 616,
+          "key": "2898f7fc-0069-4fcf-bf38-ff18a1f70a37",
+          "moved": true,
+          "next": "499fcdfc-3ee4-4f4a-9f0c-9ed5ebffe8ea",
+          "label": "if",
+          "xTranslate": -168,
+          "yTranslate": 112,
+          "cmp": "eq",
+          "value": "4"
+        },
+        {
+          "type": "condition",
+          "display_name": "else",
+          "x": 1736,
+          "modal": false,
+          "y": 616,
+          "key": "ea85c40b-ae36-459e-b610-7ed50cba34f1",
+          "moved": true,
+          "next": "633bc37a-e9bc-4c50-a0e2-cf849a89c81a",
+          "label": "else",
+          "xTranslate": 280,
+          "yTranslate": 112
+        },
+        {
+          "type": "condition",
+          "display_name": "if",
+          "x": 1064,
+          "modal": false,
+          "y": 616,
+          "key": "f7bf74a4-6c4a-4ccf-a91f-94ed0ecec21a",
+          "moved": true,
+          "next": "91c60652-8c65-447d-b6df-0f5483eef34f",
+          "xTranslate": 350,
+          "yTranslate": 0,
+          "cmp": "eq",
+          "value": "2"
+        },
+        {
+          "type": "condition",
+          "display_name": "if",
+          "x": 1456,
+          "modal": false,
+          "y": 616,
+          "key": "72af665a-c7a6-436f-a882-917ef77b5433",
+          "moved": true,
+          "next": "75e59e59-ce3e-4a42-89f7-9c06b5f60a52",
+          "xTranslate": 350,
+          "yTranslate": 0,
+          "cmp": "eq",
+          "value": "3"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 896,
+          "y": 7336,
+          "key": "e8264d00-ab87-4929-aa5c-5d8b7c40553a",
+          "moved": true,
+          "next": "e1174148-3ee1-4979-ac2b-339338485a18"
+        },
+        {
+          "system_name": "Living life to the full",
+          "display_name": {
+            "en": "",
+            "en_GB": "Living life to the full"
+          },
+          "description": {
+            "en": ""
+          },
+          "test": "",
+          "type": "section",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Healthy thinking - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Dealing with unhealthy thinking and bad thoughts (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Sleep problems - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How to improve your sleep (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing your anger -LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Step 1 - Think about what makes you angry (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Step 2 - Learn your early warning signs"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Step 3 - Choose to respond differently (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Low mood and depression - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "What you can do to start to feel better (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How to solve problems - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Understanding and overcoming worry - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Face it, fix it, forget it - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Face it, fix it, forget it - Step 2 (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Face it, fix it, forget it - Step 3 (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Course complete (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Give feedback - Moving on the end of the beginning (HeLP)"
+            }
+          ],
+          "x": 336,
+          "y": 7560,
+          "key": "c7f70c5b-d826-49c7-9611-04f57fe4353c",
+          "moved": true,
+          "next": null
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 1344,
+          "y": 7336,
+          "key": "3fb7058c-48af-4726-8756-0cc5a0983ce5",
+          "moved": true,
+          "next": "ef1676d0-e9e0-4a92-b79d-ad7b2b0d155b"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 1736,
+          "y": 7336,
+          "key": "88857d15-613a-4c06-a8f9-6151178a2b44",
+          "moved": true,
+          "next": "d6714116-8d06-4469-9868-2ff856b606d3"
+        },
+        {
+          "system_name": "Living life to the full",
+          "display_name": {
+            "en": "",
+            "en_GB": "Living life to the full"
+          },
+          "description": {
+            "en": ""
+          },
+          "test": "",
+          "type": "section",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Healthy thinking - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Dealing with unhealthy thinking and bad thoughts (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Sleep problems - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How to improve your sleep (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing your anger -LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Step 1 - Think about what makes you angry (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Step 2 - Learn your early warning signs"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Step 3 - Choose to respond differently (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Low mood and depression - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "What you can do to start to feel better (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How to solve problems - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Understanding and overcoming worry - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Face it, fix it, forget it - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Face it, fix it, forget it - Step 2 (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Face it, fix it, forget it - Step 3 (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Course complete (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Give feedback - Moving on the end of the beginning (HeLP)"
+            }
+          ],
+          "x": 896,
+          "y": 7672,
+          "key": "40442904-7d7d-4b4c-b66d-4a3a35c0f86c",
+          "moved": true,
+          "next": null
+        },
+        {
+          "system_name": "Living life to the full",
+          "display_name": {
+            "en": "",
+            "en_GB": "Living life to the full"
+          },
+          "description": {
+            "en": ""
+          },
+          "test": "",
+          "type": "section",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Healthy thinking - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Dealing with unhealthy thinking and bad thoughts (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Sleep problems - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How to improve your sleep (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing your anger -LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Step 1 - Think about what makes you angry (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Step 2 - Learn your early warning signs"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Step 3 - Choose to respond differently (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Low mood and depression - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "What you can do to start to feel better (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How to solve problems - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Understanding and overcoming worry - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Face it, fix it, forget it - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Face it, fix it, forget it - Step 2 (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Face it, fix it, forget it - Step 3 (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Course complete (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Give feedback - Moving on the end of the beginning (HeLP)"
+            }
+          ],
+          "x": 1344,
+          "y": 7672,
+          "key": "65b93b14-ab87-48e5-b079-8376ddea8af4",
+          "moved": true,
+          "next": null
+        },
+        {
+          "system_name": "Living life to the full",
+          "display_name": {
+            "en": "",
+            "en_GB": "Living life to the full"
+          },
+          "description": {
+            "en": ""
+          },
+          "test": "",
+          "type": "section",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Healthy thinking - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Dealing with unhealthy thinking and bad thoughts (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Sleep problems - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How to improve your sleep (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing your anger -LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Step 1 - Think about what makes you angry (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Step 2 - Learn your early warning signs"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Step 3 - Choose to respond differently (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Low mood and depression - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "What you can do to start to feel better (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How to solve problems - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Understanding and overcoming worry - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Face it, fix it, forget it - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Face it, fix it, forget it - Step 2 (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Face it, fix it, forget it - Step 3 (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Course complete (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Give feedback - Moving on the end of the beginning (HeLP)"
+            }
+          ],
+          "x": 1736,
+          "y": 7672,
+          "key": "61abe590-ef1e-44b9-97d6-d740b633150b",
+          "moved": true,
+          "next": null
+        },
+        {
+          "system_name": "Part 1 - Taking control For NON SMOKER",
+          "display_name": {
+            "en_GB": "Taking control"
+          },
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Starting to manage your diabetes (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Taking care of yourself (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Learning to self manage - Taking control (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Blood sugar levels (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Blood sugar meters (HeLP)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Physical activity - IPAQ Quiz (HL) (Quiz)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Alcohol quiz - Part 1 v2 - New Typeform (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of part 1"
+            }
+          ],
+          "description": {
+            "en_GB": null
+          },
+          "x": 1680,
+          "y": 2800,
+          "type": "section",
+          "key": "ee2afc95-785b-4759-80e9-3f5c3b78085f",
+          "moved": true,
+          "next": "74bbe1f3-41d9-4947-8f8d-ee5045de08e9"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 2072,
+          "y": 2912,
+          "key": "74bbe1f3-41d9-4947-8f8d-ee5045de08e9",
+          "moved": true,
+          "next": "2fd5590d-e3b0-4ab4-95de-78104ec700ff"
+        },
+        {
+          "system_name": "Protecting my body and mind",
+          "display_name": {
+            "en_GB": "Protecting your body and mind"
+          },
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Your body and emotions (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Emotional problems - Protecting my body and mind (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Eye problems - Updated (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Preventing feet problems (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Infections (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Kidney problems (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Nerve damage (diabetic neuropathy) (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Sexual problems (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "High blood sugar (hyperglycaemia) (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Low blood sugar (hypoglycaemia) (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Protecting my body and mind - Section complete (HL)"
+            }
+          ],
+          "description": {
+            "en_GB": null
+          },
+          "x": 2072,
+          "y": 3080,
+          "type": "section",
+          "key": "2fd5590d-e3b0-4ab4-95de-78104ec700ff",
+          "moved": true,
+          "next": "ae3ccae5-3780-4c4f-a58a-cea7ea4fcc63"
+        },
+        {
+          "system_name": "Part 3  Handling feelings ",
+          "display_name": {
+            "en_GB": "Handling feelings"
+          },
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Effects on relationships (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Handling feelings - People’s stories (HL)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Handling feelings - Lawrence on the challenges of high blood sugar (HL)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Handling feelings - How Malcolm's wife helps him manage his diet (HL)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "People's stories - Helen - Handling feelings (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Pregnancy - Handling Feelings (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Handling feelings - Section complete (HL)"
+            }
+          ],
+          "description": {
+            "en_GB": null
+          },
+          "x": 2072,
+          "y": 3416,
+          "type": "section",
+          "key": "df6c8a41-42b4-4a2e-a0ac-186f3abb2cbb",
+          "moved": true,
+          "next": "165c6713-6bbd-40a0-a63d-5e2ba3f9c260"
+        },
+        {
+          "system_name": "Part 4  Making changes - NON SMOKER",
+          "display_name": {
+            "en_GB": "Making changes"
+          },
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Making changes (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Start with 1 thing (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "SMART goals (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of part 4 (HeLP)"
+            }
+          ],
+          "description": {
+            "en_GB": null
+          },
+          "x": 1344,
+          "y": 2576,
+          "type": "section",
+          "key": "c051e7a8-a489-4d03-8508-547d0beb615b",
+          "moved": true,
+          "next": "c11cff5a-4056-4bb9-8f10-43bcf19a51a0"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 2072,
+          "y": 3248,
+          "key": "ae3ccae5-3780-4c4f-a58a-cea7ea4fcc63",
+          "moved": true,
+          "next": "df6c8a41-42b4-4a2e-a0ac-186f3abb2cbb"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 2072,
+          "y": 3584,
+          "key": "165c6713-6bbd-40a0-a63d-5e2ba3f9c260",
+          "moved": true,
+          "next": "c051e7a8-a489-4d03-8508-547d0beb615b"
+        },
+        {
+          "system_name": "Part 1 - Taking control For SMOKER",
+          "display_name": {
+            "en_GB": "Taking control"
+          },
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Starting to manage your diabetes (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Taking care of yourself (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Learning to self manage - Taking control (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Blood sugar levels (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Blood sugar meters (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Smoking (HeLP)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Physical activity - IPAQ Quiz (HL) (Quiz)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Alcohol quiz - Part 1 v2 - New Typeform (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of part 1"
+            }
+          ],
+          "description": {
+            "en_GB": null
+          },
+          "x": 2352,
+          "y": 2800,
+          "type": "section",
+          "key": "25ba3c0a-3e7e-4d78-afc2-3ebf24b038a6",
+          "moved": true,
+          "next": "74bbe1f3-41d9-4947-8f8d-ee5045de08e9"
+        },
+        {
+          "type": "if",
+          "display_name": "if else",
+          "x": 2128,
+          "modal": false,
+          "source": {
+            "name": "optionalprofiledata",
+            "property": 85
+          },
+          "y": 2520,
+          "key": "ad7ae752-57be-4f6d-80a1-b806ebdaaf97",
+          "moved": true,
+          "next": [
+            "1d5839d0-e4dd-4061-8599-434552c9e4dc",
+            "d43659c3-e08e-4b1d-94c2-f6c3e94b124a"
+          ]
+        },
+        {
+          "type": "condition",
+          "display_name": "if",
+          "x": 1904,
+          "modal": false,
+          "y": 2632,
+          "key": "1d5839d0-e4dd-4061-8599-434552c9e4dc",
+          "moved": true,
+          "next": "ee2afc95-785b-4759-80e9-3f5c3b78085f",
+          "label": "if",
+          "xTranslate": -168,
+          "yTranslate": 112,
+          "cmp": "eq",
+          "value": "2"
+        },
+        {
+          "type": "condition",
+          "display_name": "else",
+          "x": 2408,
+          "modal": false,
+          "y": 2688,
+          "key": "d43659c3-e08e-4b1d-94c2-f6c3e94b124a",
+          "moved": true,
+          "next": "25ba3c0a-3e7e-4d78-afc2-3ebf24b038a6",
+          "label": "else",
+          "xTranslate": 280,
+          "yTranslate": 112
+        },
+        {
+          "system_name": "Driving with diabetes ",
+          "display_name": {
+            "en": "",
+            "en_GB": "Driving with diabetes"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Driving (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "If you already have a driving licence (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "If you are applying for a provisional driving licence (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "After you tell the DVLA about your diabetes (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Driving with diabetes - Driving and low blood sugar (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Driving with diabetes - Motor insurance (HL)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          },
+          "x": 896,
+          "y": 7000,
+          "type": "section",
+          "key": "4b0ae735-0cad-4a7c-a55f-db6303c699db",
+          "moved": true,
+          "next": "4cc21a44-2212-4fc5-939a-c9c96341e6d5"
+        },
+        {
+          "system_name": "Part 6  Review my goals and plans",
+          "display_name": {
+            "en": "",
+            "en_GB": "Review your goals and plans"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Review my goals and plans - Progress on your goals and plans (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "End of part 6 (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          },
+          "x": 336,
+          "y": 7112,
+          "type": "section",
+          "key": "1bd7c6cc-112a-4da0-86ea-a1fe5c664abe",
+          "moved": true,
+          "next": "7cc7b847-6c38-4be6-833d-487c1e4f79f6"
+        },
+        {
+          "system_name": "Part 6  Review my goals and plans",
+          "display_name": {
+            "en": "",
+            "en_GB": "Review your goals and plans"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Review my goals and plans - Progress on your goals and plans (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "End of part 6 (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          },
+          "x": 896,
+          "y": 7224,
+          "type": "section",
+          "key": "cb960ad1-0170-49a4-a1ed-2d929fae9e63",
+          "moved": true,
+          "next": "e8264d00-ab87-4929-aa5c-5d8b7c40553a"
+        },
+        {
+          "system_name": "Part 6  Review my goals and plans",
+          "display_name": {
+            "en": "",
+            "en_GB": "Review your goals and plans"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Review my goals and plans - Progress on your goals and plans (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "End of part 6 (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          },
+          "x": 1344,
+          "y": 7224,
+          "type": "section",
+          "key": "14e29504-c1db-4fe5-b516-732a3a12f718",
+          "moved": true,
+          "next": "3fb7058c-48af-4726-8756-0cc5a0983ce5"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 336,
+          "y": 7448,
+          "key": "9a90011b-2d7e-4b42-9854-9bfda04dfcd9",
+          "moved": true,
+          "next": "c7f70c5b-d826-49c7-9611-04f57fe4353c"
+        },
+        {
+          "system_name": "Managing my moods",
+          "display_name": {
+            "en": "",
+            "en_GB": "Managing your moods"
+          },
+          "description": {
+            "en": ""
+          },
+          "test": "",
+          "type": "section",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing my moods - Managing my emotions (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing my moods - Living Life to the Full (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing my moods - Section complete (HL)"
+            }
+          ],
+          "x": 336,
+          "y": 7336,
+          "key": "e84f80d0-2e92-4bc3-bec0-5d50f142eacf",
+          "moved": true,
+          "next": "9a90011b-2d7e-4b42-9854-9bfda04dfcd9"
+        },
+        {
+          "system_name": "Managing my moods",
+          "display_name": {
+            "en": "",
+            "en_GB": "Managing your moods"
+          },
+          "description": {
+            "en": ""
+          },
+          "test": "",
+          "type": "section",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing my moods - Managing my emotions (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing my moods - Living Life to the Full (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing my moods - Section complete (HL)"
+            }
+          ],
+          "x": 896,
+          "y": 7448,
+          "key": "e1174148-3ee1-4979-ac2b-339338485a18",
+          "moved": true,
+          "next": "d2e9b33a-139f-453b-9a05-2e6d8200f561"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 896,
+          "y": 7560,
+          "key": "d2e9b33a-139f-453b-9a05-2e6d8200f561",
+          "moved": true,
+          "next": "40442904-7d7d-4b4c-b66d-4a3a35c0f86c"
+        },
+        {
+          "system_name": "Managing my moods",
+          "display_name": {
+            "en": "",
+            "en_GB": "Managing your moods"
+          },
+          "description": {
+            "en": ""
+          },
+          "test": "",
+          "type": "section",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing my moods - Managing my emotions (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing my moods - Living Life to the Full (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing my moods - Section complete (HL)"
+            }
+          ],
+          "x": 1344,
+          "y": 7448,
+          "key": "ef1676d0-e9e0-4a92-b79d-ad7b2b0d155b",
+          "moved": true,
+          "next": "38e1d341-2f75-444c-a281-8155edb4e061"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 1344,
+          "y": 7560,
+          "key": "38e1d341-2f75-444c-a281-8155edb4e061",
+          "moved": true,
+          "next": "65b93b14-ab87-48e5-b079-8376ddea8af4"
+        },
+        {
+          "system_name": "Managing my moods",
+          "display_name": {
+            "en": "",
+            "en_GB": "Managing your moods"
+          },
+          "description": {
+            "en": ""
+          },
+          "test": "",
+          "type": "section",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing my moods - Managing my emotions (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing my moods - Living Life to the Full (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing my moods - Section complete (HL)"
+            }
+          ],
+          "x": 1736,
+          "y": 7448,
+          "key": "d6714116-8d06-4469-9868-2ff856b606d3",
+          "moved": true,
+          "next": "a8d2d6c8-210a-4664-bfb7-520d2ec0f014"
+        },
+        {
+          "type": "next",
+          "display_name": "next",
+          "x": 1736,
+          "y": 7560,
+          "key": "a8d2d6c8-210a-4664-bfb7-520d2ec0f014",
+          "moved": true,
+          "next": "61abe590-ef1e-44b9-97d6-d740b633150b"
+        },
+        {
+          "system_name": "Part 1  Working with Health Professionals ",
+          "display_name": {
+            "en": "",
+            "en_GB": "Working with health professionals"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Working with health professionals (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "At the GP surgery (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Pharmacists, podiatrists and dietitians (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "At the hospital (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "If you feel low (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How to feel more supported by your diabetes team (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of Part 1 - Working with Health Professionals"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          },
+          "x": 1344,
+          "y": 6328,
+          "type": "section",
+          "key": "046ea695-4289-44fc-a324-dacdf0ba0479",
+          "moved": true,
+          "next": "39eafc5f-afe1-4828-8917-b32bb9346795"
+        },
+        {
+          "system_name": "Part 1  Working with Health Professionals ",
+          "display_name": {
+            "en": "",
+            "en_GB": "Working with health professionals"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Working with health professionals (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "At the GP surgery (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Pharmacists, podiatrists and dietitians (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "At the hospital (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "If you feel low (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How to feel more supported by your diabetes team (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of Part 1 - Working with Health Professionals"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          },
+          "x": 896,
+          "y": 6328,
+          "type": "section",
+          "key": "e421a76c-ca55-4198-a266-b5bca3e0030a",
+          "moved": true,
+          "next": "d0f3235a-8966-42dd-8396-ac82132f16ca"
+        },
+        {
+          "system_name": "Part 1  Working with Health Professionals ",
+          "display_name": {
+            "en": "",
+            "en_GB": "Working with health professionals"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Working with health professionals (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "At the GP surgery (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Pharmacists, podiatrists and dietitians (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "At the hospital (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "If you feel low (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How to feel more supported by your diabetes team (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of Part 1 - Working with Health Professionals"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          },
+          "x": 336,
+          "y": 6328,
+          "type": "section",
+          "key": "2e91cc2e-5ac6-4c0c-869f-287e7614ca5d",
+          "moved": true,
+          "next": "da457f28-b49f-4b41-82dc-be3ded4ce9fe"
+        }
+      ],
+      "sections": [
+        {
+          "system_name": "Part 1- Introduction to type 2 diabetes",
+          "display_name": {
+            "en_GB": "Introduction to type 2 diabetes"
+          },
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "An introduction to type 2 diabetes (HeLP)(Edited Version)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Understanding diabetes - about type 2 diabetes  1-1 (HL)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Introduction to type 2 diabetes - What is type 2 diabetes (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Being diagnosed with type 2 diabetes (HeLP) (Edited)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Getting the diagnosis (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Sylvia's experience after diagnosis (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Soon after being diagnosed Sylvia lost her eyesight for two weeks until her medication kicked in (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "What can happen if diabetes is poorly managed (HeLP) (Edited Version)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How can I take care of my diabetes? (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Raj feels more energetic since he has been more careful about when he eats (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "What causes type 2 diabetes (HeLP) (Edited Version)2"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Cure (HeLP) (Edited Version) (NHS approved)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Treatment (HeLP) (Edited Version)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Understanding type 2 diabetes (Quiz) (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of part 1 (HeLP)"
+            }
+          ],
+          "x": 365,
+          "y": 255,
+          "type": "section",
+          "key": "01cfdc0c-3509-41d6-86ef-d50f3ddd7be3",
+          "moved": true,
+          "next": null,
+          "description": {
+            "en_GB": ""
+          }
+        },
+        {
+          "system_name": "Part 2 - Self- assessment",
+          "display_name": {
+            "en_GB": "Self assessment"
+          },
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How you feel about your diabetes"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Find out how confident you feel about managing your diabetes (HeLP) (Quiz) (New version 1)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Find out how your diabetes affects your life (HeLP) (Quiz)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of part 2 (HeLP)"
+            }
+          ],
+          "description": {
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 3 - Eating well for diabetes",
+          "display_name": {
+            "en_GB": "Eating well for diabetes"
+          },
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Food, drink and alcohol (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "A healthy diet (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "A healthy balanced diet (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Meals and portion sizes (HeLP)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Calories and weight (HL) (Quiz) (New version)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Fruit and vegetables (Help)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Carbohydrates and sugar (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Lower carbohydrate plate (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Carbohydrates and blood sugar levels (HeLP)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Carbohydrates and blood glucose - Quiz (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Fat (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Fish (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Alcohol (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Salt (Help)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Foods specifically for people with diabetes (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Diet goals (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "End of part 3 - next steps (HeLP)"
+            },
+            {
+              "type": "profile-data",
+              "published": true,
+              "system_name": ""
+            }
+          ],
+          "description": {
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 4 - Becoming more active",
+          "display_name": {
+            "en_GB": "Becoming more active"
+          },
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Physical activity(Help)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How activity helps your body  (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Benefits of physical activity-Becoming more active  (Video)(HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Physical activity and diabetes medicines (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Exercise prescription (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Moderate activity - Becoming more active (HL)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Diabetes and exercise - Becoming more active (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Physical activity and being as safe as possible (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "If you are at risk of low blood sugar (hypoglycaemia) (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Activity routines and goals (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Physical activity goals you could use (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Physical activity goals (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "People’s stories - Part 4 - Becoming more active (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "James on the positive benefits of gardening (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "People's stories - Part 4 - Becoming more active - Stuart (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Stuart on finding excuses not to exercise (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "People's stories - Part 4 Becoming more active - Nicky (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "How Nicky fits exercise into her day (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - Part 4 - Becoming more active (HeLP)"
+            },
+            {
+              "type": "profile-data",
+              "published": true,
+              "system_name": ""
+            }
+          ],
+          "description": {
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 1 - Taking control For NON SMOKER",
+          "display_name": {
+            "en_GB": "Taking control"
+          },
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Starting to manage your diabetes (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Taking care of yourself (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Learning to self manage - Taking control (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Blood sugar levels (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Blood sugar meters (HeLP)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Physical activity - IPAQ Quiz (HL) (Quiz)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Alcohol quiz - Part 1 v2 - New Typeform (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of part 1"
+            }
+          ],
+          "description": {
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 1 - Taking control For SMOKER",
+          "display_name": {
+            "en_GB": "Taking control"
+          },
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Starting to manage your diabetes (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Taking care of yourself (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Learning to self manage - Taking control (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Blood sugar levels (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Blood sugar meters (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Smoking (HeLP)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Physical activity - IPAQ Quiz (HL) (Quiz)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Alcohol quiz - Part 1 v2 - New Typeform (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of part 1"
+            }
+          ],
+          "description": {
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Protecting my body and mind",
+          "display_name": {
+            "en_GB": "Protecting your body and mind"
+          },
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Your body and emotions (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Emotional problems - Protecting my body and mind (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Eye problems - Updated (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Preventing feet problems (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Infections (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Kidney problems (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Nerve damage (diabetic neuropathy) (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Sexual problems (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "High blood sugar (hyperglycaemia) (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Low blood sugar (hypoglycaemia) (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Protecting my body and mind - Section complete (HL)"
+            }
+          ],
+          "description": {
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 2 - Protecting my body and mind FOR SMOKER",
+          "display_name": {
+            "en_GB": "Protecting your body and mind"
+          },
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Part 2 - Protecting my body and mind (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Preventing emotional problems (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Preventing eye problems (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Preventing infections (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Preventing kidney problems (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Preventing nerve damage (HeLP)"
+            }
+          ],
+          "description": {
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 3  Handling feelings ",
+          "display_name": {
+            "en_GB": "Handling feelings"
+          },
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Effects on relationships (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Handling feelings - People’s stories (HL)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Handling feelings - Lawrence on the challenges of high blood sugar (HL)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Handling feelings - How Malcolm's wife helps him manage his diet (HL)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "People's stories - Helen - Handling feelings (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Pregnancy - Handling Feelings (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Handling feelings - Section complete (HL)"
+            }
+          ],
+          "description": {
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 4  Making changes - NON SMOKER",
+          "display_name": {
+            "en_GB": "Making changes"
+          },
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Making changes (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Start with 1 thing (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "SMART goals (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of part 4 (HeLP)"
+            }
+          ],
+          "description": {
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 4  Making changes - SMOKER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Making changes"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Making changes (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Start with 1 thing (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "SMART goals (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of part 4 (HeLP)"
+            }
+          ],
+          "x": 1760,
+          "y": 500,
+          "type": "section",
+          "key": "f70263d0-c31c-4cc8-8e13-785d46c2b2d7",
+          "moved": true,
+          "next": null,
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Making the most of the NHS",
+          "display_name": {
+            "en": "",
+            "en_GB": "Making the most of the NHS"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Making the most of the NHS (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "The NHS (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Essential checks (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Your diabetes review (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "People’s stories - Making the most of the NHS (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Stuart's diabetes care routine (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Pamela - Making the most of the NHS (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Pamela - Making the most of the NHS (Video)(HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Tina - Making the most of the NHS (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Tina's experiences with her GP practice team (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Your health record (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - Making the most of the NHS (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 2  Reducing risk of heart attacks and strokes",
+          "display_name": {
+            "en": "",
+            "en_GB": "Reducing risk of heart attacks and strokes"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Heart attacks and stroke (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Blood pressure (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Blood pressure readings (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Measuring blood pressure at home (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Blood pressure monitors - Reducing the risks of heart attacks and stroke (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Blood vessels (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - atherosclerosis (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - high blood pressure (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - heart disease (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - calf pain and circulation in the legs (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - transient ischaemic attack and stroke"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Treatment - Reducing the risks of heart attacks and stroke (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Preventing blood vessel problems (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - Reducing the risks of heart attacks and stroke (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 3 Update my goals and plans - FOR NO MEDS",
+          "display_name": {
+            "en": "",
+            "en_GB": "Your goals and plans"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Your goals and plans (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 4 Update my goals and plans - FOR MEDS",
+          "display_name": {
+            "en": "",
+            "en_GB": "Your goals and plans"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Your goals and plans (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Wellbeing (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Ways to increase your wellbeing - connect with other people (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Ways to increase your wellbeing - be physically active (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Ways to increase your wellbeing - pay attention to the present moment (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Ways to increase your wellbeing - learn new skills (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Ways to increase your wellbeing - give to others (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of part 4 Update my goals and plans"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 4  Understanding my moods - FOR NO MEDS",
+          "display_name": {
+            "en": "",
+            "en_GB": "Understanding moods"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing your emotions (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Find out how you have been feeling (HeLP)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Find out how you have been feeling - Quiz (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Negative emotions (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Sadness and depression (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Fear and anxiety (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Anger and resentment (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Denial - Part 5 - Understanding my moods (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Guilt (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Self-confidence (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "People's stories - Part 5 - Understanding my moods (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Peoples stories - Helen - Understanding my moods (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Darren  - People's stories - Part 5 (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Peoples stories - Darren - Understanding my moods (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Wasim (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Peoples stories - Wasim - Understanding my moods (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of part 5 (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 4  Understanding my moods - FOR MEDS",
+          "display_name": {
+            "en": "",
+            "en_GB": "Understanding moods"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing your emotions (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Find out how you have been feeling (HeLP)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Find out how you have been feeling - Quiz (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Negative emotions (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Sadness and depression (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Fear and anxiety (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Anger and resentment (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Denial - Part 5 - Understanding my moods (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Guilt (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Self-confidence (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "People's stories - Part 5 - Understanding my moods (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Peoples stories - Helen - Understanding my moods (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Darren  - People's stories - Part 5 (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Peoples stories - Darren - Understanding my moods (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Wasim (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Peoples stories - Wasim - Understanding my moods (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of part 5 (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 2  Medication - FOR MEDS",
+          "display_name": {
+            "en": "",
+            "en_GB": "Medication"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Medicines (HeLP)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Medicines quiz (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Benefits of taking medicine (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Effects and challenges of medicines (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Effects of medicines - Medication (HL)(Video)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Challenges of medicines (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Challenges of taking medicines - Medication (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Concerns about taking medicines (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Medicines - Concerns about taking medicines - if you do not feel ill (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Medicine - Concerns about taking medicines - having to take medicine for the rest of your life"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Medicines - Concerns about taking medicines - weight change and side effects (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Medicines - Concerns about taking medicines - forgetting to take medicines"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Medicines - Concerns about taking medicines - worried about what others will think (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Medicines - Concerns about taking medicines - affecting your work (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Medicines - Concerns about taking medicines - travel"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Medicine - Concerns about taking medicines - paying for prescriptions (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Medicine - Concerns about taking medicines - a cure not medicine (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Medication - Section complete - (HL)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 1  My diabetes review For NO MEDS",
+          "display_name": {
+            "en": "",
+            "en_GB": "Your diabetes review"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "My diabetes review (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "People’s stories - My diabetes review (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Tina's experiences with her GP practice team (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "People's Stories - My Diabetes review - Lawrence (HeLP)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Lawrence on advice from a GP (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Your diabetes care plan (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Your goals and plans (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Prepare for your diabetes review (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Your recent results (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Your emotions (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Screening checks (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 1  My diabetes review For MEDS",
+          "display_name": {
+            "en": "",
+            "en_GB": "Your diabetes review"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "My diabetes review (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "My care plan (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 2  Looking after my feet",
+          "display_name": {
+            "en": "",
+            "en_GB": "Looking after your feet"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Taking care of your feet (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How to reduce the risk of feet problems (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Feet checks and tests (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - Looking after my feet (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - reduced sensation (neuropathy) Looking after my feet (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - reduced blood supply (ischaemia) Looking after my feet (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - reduced sensation and reduced blood supply (neuro-ischaemia) Looking after my feet (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - pain - Looking after my feet (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - corns and calluses - Looking after my feet (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Complications - ulcers - Looking after my feet (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Treatment - Looking after my feet (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of Part 2 looking after my feet"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 3  Review my goals and plans - FOR NO MEDS",
+          "display_name": {
+            "en": "",
+            "en_GB": "Review your goals and plans"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Making changes (HeLP) 1"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Change my diet goal and plans (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 3  Review my goals and plans - FOR NO MEDS",
+          "display_name": {
+            "en": "",
+            "en_GB": "Review your goals and plans"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Wellbeing (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 4  Self assessment - FOR NO MEDS",
+          "display_name": {
+            "en": "",
+            "en_GB": "Self assessment"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Self assessment - How you feel about your diabetes (HL)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Find out how confident you feel about managing your diabetes (HeLP) (Quiz) (New version -2)"
+            },
+            {
+              "type": "survey",
+              "published": true,
+              "system_name": "Find out how your diabetes affects your life (HeLP) (Quiz 2)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Self assessment - Section complete (HL)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 4  Self assessment - FOR MEDS",
+          "display_name": {
+            "en": "",
+            "en_GB": "Self assessment"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Quizzes (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Looking after myself - diabetes self-efficacy (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 5  Staying motivated - FOR NO MEDS",
+          "display_name": {
+            "en": "",
+            "en_GB": "Staying motivated"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How do I stay motivated? (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Diabetes in the media (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Reliable research (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Unreliable research (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Other ways to find out if research is reliable (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How to get more information (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Challenges - Part 5 - Moving on the end of the beginning (HeLP)"
+            },
+            {
+              "type": "profile-data",
+              "published": true,
+              "system_name": ""
+            },
+            {
+              "type": "profile-data",
+              "published": true,
+              "system_name": ""
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 1  Working with Health Professionals ",
+          "display_name": {
+            "en": "",
+            "en_GB": "Working with health professionals"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Working with health professionals (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "At the GP surgery (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Pharmacists, podiatrists and dietitians (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "At the hospital (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "If you feel low (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How to feel more supported by your diabetes team (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of Part 1 - Working with Health Professionals"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 2  Managing my diabetes when I’m ill - for EMPLOYED, DRIVER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Managing diabetes when you are ill"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing your diabetes when you are ill (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Eating when ill (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Blood sugar levels when you are ill (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Taking medicines when you are ill (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Preventing illness (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - Part 2 - Managing my diabetes when I'm ill"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 2 Managing my diabetes when I’m ill for EMPLOYED, NON-DRIVER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Managing diabetes when you are ill"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Diabetes and illness (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Eating when ill (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Managing my diabetes when I’m ill  for UNEMPLOYED, DRIVER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Managing diabetes when you are ill"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Diabetes and illness (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Eating when ill (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Managing my diabetes when I’m ill for UNEMPLOYED, NON-DRIVER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Managing diabetes when you are ill"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Diabetes and illness (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Eating when ill (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Diabetes and my social life for EMPLOYED, DRIVER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Diabetes and social life"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Making the most of your social life (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Diabetes and my social life - Eating socially (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Eating in restaurants (s11restaurants)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Eating at celebrations (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Fasting (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Diabetes and my social life - Alcohol (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Recreational drugs (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "People’s stories - Social live (HL)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Mo - Social lifes (HL)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Paul - Social life (HL) (Video)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Diabetes and social life - Section complete (HL)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Diabetes and my social life for EMPLOYED, NON-DRIVER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Diabetes and social life"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Making the most of your social life (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Special occasions (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Diabetes and my social life for UNEMPLOYED DRIVER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Diabetes and social life"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Making the most of your social life (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Special occasions (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Diabetes and my social life for UNEMPLOYED, NON DRIVER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Diabetes and social life"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Making the most of your social life (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Special occasions (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Working with diabetes for EMPLOYED, DRIVER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Working with diabetes"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Working with diabetes (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Telling the people you work with (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "If you already have a job (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Applying for a job (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Diabetes and the Equality Act (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "High risk jobs (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Shift work (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "People’s stories - Working with diabetes (HL)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Working with diabetes - Duncan on challenges of walking (HL)"
+            },
+            {
+              "type": "video",
+              "published": true,
+              "system_name": "Lawrence - Working with diabetes (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Section complete - End of Part 4 - Working with diabetes"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Working with diabetes for EMPLOYED, NON DRIVER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Working with diabetes"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing diabetes at work (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "When to tell employers and recruiters (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Driving with diabetes ",
+          "display_name": {
+            "en": "",
+            "en_GB": "Driving with diabetes"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Driving (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "If you already have a driving licence (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "If you are applying for a provisional driving licence (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "After you tell the DVLA about your diabetes (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Driving with diabetes - Driving and low blood sugar (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Driving with diabetes - Motor insurance (HL)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Part 6  Review my goals and plans",
+          "display_name": {
+            "en": "",
+            "en_GB": "Review your goals and plans"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Review my goals and plans - Progress on your goals and plans (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "End of part 6 (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Alcohol (rework)",
+          "display_name": {
+            "en": "",
+            "en_GB": "Alcohol (rework)"
+          },
+          "test": "",
+          "items": [],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "About this programme (Help)",
+          "display_name": {
+            "en": "",
+            "en_GB": "About this programme"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "First page (HeLP)"
+            }
+          ],
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Getting started",
+          "display_name": {
+            "en": "",
+            "en_GB": "Getting started"
+          },
+          "test": "",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Before you begin (HeLP)"
+            },
+            {
+              "type": "profile-data",
+              "published": true,
+              "system_name": ""
+            },
+            {
+              "type": "profile-data",
+              "published": true,
+              "system_name": ""
+            },
+            {
+              "type": "profile-data",
+              "published": true,
+              "system_name": ""
+            },
+            {
+              "type": "profile-data",
+              "published": true,
+              "system_name": ""
+            },
+            {
+              "type": "profile-data",
+              "published": true,
+              "system_name": ""
+            }
+          ],
+          "x": 50,
+          "y": 3840,
+          "type": "section",
+          "key": "a46cba82-b4cf-41e2-ac7e-fa6f94aef176",
+          "description": {
+            "en": null,
+            "en_GB": null
+          }
+        },
+        {
+          "system_name": "Advice notice  for TYPE 1 DIABETES",
+          "display_name": {
+            "en": "",
+            "en_GB": "Advice notice"
+          },
+          "description": {
+            "en": ""
+          },
+          "test": "",
+          "type": "section",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Advice notice  for TYPE 1 DIABETES (HL)"
+            }
+          ]
+        },
+        {
+          "system_name": "Advice notice  for AT RISK OF TYPE 2",
+          "display_name": {
+            "en": "",
+            "en_GB": "Advice notice"
+          },
+          "description": {
+            "en": ""
+          },
+          "test": "",
+          "type": "section",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Advice notice  for AT RISK OF TYPE 2"
+            }
+          ]
+        },
+        {
+          "system_name": "Advice notice for CARER",
+          "display_name": {
+            "en": "",
+            "en_GB": "Advice notice"
+          },
+          "description": {
+            "en": ""
+          },
+          "test": "",
+          "type": "section",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Advice notice for CARER"
+            }
+          ]
+        },
+        {
+          "system_name": "Living life to the full",
+          "display_name": {
+            "en": "",
+            "en_GB": "Living life to the full"
+          },
+          "description": {
+            "en": ""
+          },
+          "test": "",
+          "type": "section",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Healthy thinking - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Dealing with unhealthy thinking and bad thoughts (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Sleep problems - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How to improve your sleep (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing your anger -LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Step 1 - Think about what makes you angry (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Step 2 - Learn your early warning signs"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Step 3 - Choose to respond differently (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Low mood and depression - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "What you can do to start to feel better (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "How to solve problems - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Understanding and overcoming worry - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Face it, fix it, forget it - LLTTF"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Face it, fix it, forget it - Step 2 (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Face it, fix it, forget it - Step 3 (LLTTF)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Course complete (HeLP)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Give feedback - Moving on the end of the beginning (HeLP)"
+            }
+          ]
+        },
+        {
+          "system_name": "Managing my moods",
+          "display_name": {
+            "en": "",
+            "en_GB": "Managing your moods"
+          },
+          "description": {
+            "en": ""
+          },
+          "test": "",
+          "type": "section",
+          "items": [
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing my moods - Managing my emotions (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing my moods - Living Life to the Full (HL)"
+            },
+            {
+              "type": "article",
+              "published": true,
+              "system_name": "Managing my moods - Section complete (HL)"
+            }
+          ]
+        }
+      ],
+      "created_type": "user",
+      "updated_type": "user",
+      "translations": "",
+      "languages_used": "[\"en_GB\"]",
+      "default_language": "en_GB",
+      "has_dashboard": 1
+    }
+  ]
+}
