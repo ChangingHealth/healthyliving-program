@@ -13,6 +13,6 @@ We have open-sourced part of the program. Here you can find the different parts:
 
 * [Blood Glucose Tracker Plugin](https://github.com/ChangingHealth/vue-ctk-date-time-picker) - Unlike other tracker plugins within the platform (food, weight, steps), the Blood Glucose tracker was built specifically for Healthy Living. It enables users to track HbA1c percentage or mg/dl of blood glucose. 
 
-* [Static Dashboard](https://github.com/ChangingHealth/healthyliving-program/tree/main/dashboard-hl) - As a result of user research feedback, we changed the navigation of the program to include a dashboard. This displays to users the progress of their learning. It also includes widgets for notifications, support, finding answers and easier access to trackers.
+* [Static Dashboard](https://github.com/ChangingHealth/healthyliving-program/tree/main/dashboard-hl) - As a result of user research feedback, we changed the navigation of the program to include a dashboard. This displays to users the progress of their learning. It also includes widgets for notifications, support, finding answers and easier access to trackers. [Preview static](https://changinghealth.github.io/healthyliving-program/dashboard-hl/example-dashboard.html)
 
 * [Program Metadata](https://github.com/ChangingHealth/healthyliving-program/tree/main/program-metadata) - The platform uses a program object to build the program that the users see. As this is unique to the service, we will make it open source.
